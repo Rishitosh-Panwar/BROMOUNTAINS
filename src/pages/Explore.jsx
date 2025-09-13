@@ -3,7 +3,7 @@ import ExploreCard from '../components/Explore/ExploreCard'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
 
-import dodital from '../assets/Dodital.jpeg';
+import dodital from '../assets/Dodital.jpg';
 import kyarkoti from '../assets/Kyarkoti.jpg';
 import dayara from '../assets/Dayara.jpg';
 import harshil from '../assets/Harshil.jpg';
@@ -52,7 +52,7 @@ const Explore = () => {
   return (
     <div className='lg:p-4 p-2 mb-10'>
       <div className=' pt-[33vh]'>
-        <h2 className='font-[font2] lg:text-[12vw] text-8xl uppercase leading-36'>EXPLORE</h2>
+        <h2 className='font-[font2] lg:text-[12vw] text-[20vw] uppercase leading-36'>EXPLORE</h2>
       </div>
       <div className='-lg:mt-20 cards'>
         {explore.map((elem, idx) => (
